@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E8E4BEA82451ADD3F4BE69 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C130D6B651A392F63324E /* DashboardView.swift */; };
+		07EC7048B1409434FD24DB57 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2AD720EB2F7888E3A2BD0 /* Theme.swift */; };
+		240A0A458B36C1F451EC2F53 /* ClairApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307935A97370796A1669FD82 /* ClairApp.swift */; };
+		35A8C7A8A56995D5A1D127D1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55BFA674A1435696DBDB58 /* Models.swift */; };
+		5AB1FDBA418A9FE1579148C6 /* FileCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5A8C7A8136B5A429ACBFDB /* FileCategory.swift */; };
+		5B277D484283E37A4B69DD37 /* StorageReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AB52EA54538F709877B84 /* StorageReportView.swift */; };
+		5D65CB123906CB7B09E123BE /* OverviewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2828C060C2D5CA113DEAAFD1 /* OverviewViews.swift */; };
+		715F8F30BB860EB4FA2E4124 /* StorageScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E797CC9FAC8580E66C6FB765 /* StorageScanner.swift */; };
+		7F1D034A79F3F090F0B61726 /* StorageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8CA305C2E6748A053EB96 /* StorageBrowser.swift */; };
+		AB4942CB0861506AE15B4D0F /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CDBA4C55040DD03F41D962DB /* AppIcon.icns */; };
+		AC9338E224AF7953299D3460 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4906A2182C121D19ED80F178 /* Sheets.swift */; };
+		AF7580D20C51A4A524DF55A8 /* CleanerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735D48D434562245A4030755 /* CleanerModel.swift */; };
+		B6748C4D2DBB060621CC50F5 /* StorageIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696782C8204C2E9BF7FD3550 /* StorageIndex.swift */; };
+		C1435122BF4668CC7D4E16AA /* DiskScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EAFC5EBED29A8784BD3DD8 /* DiskScanner.swift */; };
+		DA1B033DE0B8DD636073101C /* StorageExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0BF471BB9D21BBF199AA8A /* StorageExplorerView.swift */; };
+		F5EC27A270021D4842C3EFA1 /* TrashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62266A0CE8F8D904AF36A9F /* TrashService.swift */; };
+		FAAFE51222479377DC078545 /* StorageInsights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7432058986262B3BF27EBF /* StorageInsights.swift */; };
+		FD108E3E7BA0392D04577D5D /* CleanupPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8448759116C5579BD4A36 /* CleanupPolicy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13E8CA305C2E6748A053EB96 /* StorageBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBrowser.swift; sourceTree = "<group>"; };
+		2828C060C2D5CA113DEAAFD1 /* OverviewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViews.swift; sourceTree = "<group>"; };
+		307935A97370796A1669FD82 /* ClairApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClairApp.swift; sourceTree = "<group>"; };
+		4906A2182C121D19ED80F178 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		4B7432058986262B3BF27EBF /* StorageInsights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageInsights.swift; sourceTree = "<group>"; };
+		516C130D6B651A392F63324E /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		59EAFC5EBED29A8784BD3DD8 /* DiskScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskScanner.swift; sourceTree = "<group>"; };
+		656AB52EA54538F709877B84 /* StorageReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageReportView.swift; sourceTree = "<group>"; };
+		696782C8204C2E9BF7FD3550 /* StorageIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageIndex.swift; sourceTree = "<group>"; };
+		735D48D434562245A4030755 /* CleanerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerModel.swift; sourceTree = "<group>"; };
+		7F5A8C7A8136B5A429ACBFDB /* FileCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCategory.swift; sourceTree = "<group>"; };
+		A021EA69C0B2125FDA4E24EB /* Clair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBA4C55040DD03F41D962DB /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		DF55BFA674A1435696DBDB58 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E797CC9FAC8580E66C6FB765 /* StorageScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageScanner.swift; sourceTree = "<group>"; };
+		EAD8448759116C5579BD4A36 /* CleanupPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupPolicy.swift; sourceTree = "<group>"; };
+		F62266A0CE8F8D904AF36A9F /* TrashService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashService.swift; sourceTree = "<group>"; };
+		FED2AD720EB2F7888E3A2BD0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FF0BF471BB9D21BBF199AA8A /* StorageExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageExplorerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1940692DEA77B45A5C8DF644 = {
+			isa = PBXGroup;
+			children = (
+				304367EE08A7F6877786E6E6 /* Clair */,
+				6C28F20F7497E4F07FA98415 /* CleanerCore */,
+				C5AF2079A66FC4812686DECE /* Resources */,
+				574A7C1480D38DBF9839AB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		304367EE08A7F6877786E6E6 /* Clair */ = {
+			isa = PBXGroup;
+			children = (
+				307935A97370796A1669FD82 /* ClairApp.swift */,
+				735D48D434562245A4030755 /* CleanerModel.swift */,
+				516C130D6B651A392F63324E /* DashboardView.swift */,
+				2828C060C2D5CA113DEAAFD1 /* OverviewViews.swift */,
+				4906A2182C121D19ED80F178 /* Sheets.swift */,
+				FF0BF471BB9D21BBF199AA8A /* StorageExplorerView.swift */,
+				656AB52EA54538F709877B84 /* StorageReportView.swift */,
+				FED2AD720EB2F7888E3A2BD0 /* Theme.swift */,
+			);
+			name = Clair;
+			path = Sources/Clair;
+			sourceTree = "<group>";
+		};
+		574A7C1480D38DBF9839AB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A021EA69C0B2125FDA4E24EB /* Clair.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C28F20F7497E4F07FA98415 /* CleanerCore */ = {
+			isa = PBXGroup;
+			children = (
+				EAD8448759116C5579BD4A36 /* CleanupPolicy.swift */,
+				59EAFC5EBED29A8784BD3DD8 /* DiskScanner.swift */,
+				7F5A8C7A8136B5A429ACBFDB /* FileCategory.swift */,
+				DF55BFA674A1435696DBDB58 /* Models.swift */,
+				13E8CA305C2E6748A053EB96 /* StorageBrowser.swift */,
+				696782C8204C2E9BF7FD3550 /* StorageIndex.swift */,
+				4B7432058986262B3BF27EBF /* StorageInsights.swift */,
+				E797CC9FAC8580E66C6FB765 /* StorageScanner.swift */,
+				F62266A0CE8F8D904AF36A9F /* TrashService.swift */,
+			);
+			name = CleanerCore;
+			path = Sources/CleanerCore;
+			sourceTree = "<group>";
+		};
+		C5AF2079A66FC4812686DECE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDBA4C55040DD03F41D962DB /* AppIcon.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC5F612D5D37A79374267C3 /* Clair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CC709A8AAF3C17B622AC9C /* Build configuration list for PBXNativeTarget "Clair" */;
+			buildPhases = (
+				DFF6936A0EE1D408A0CBA250 /* Sources */,
+				D36E0BA61FA4AB9E5EDA28A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clair;
+			packageProductDependencies = (
+			);
+			productName = Clair;
+			productReference = A021EA69C0B2125FDA4E24EB /* Clair.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41B5A04A7D990F0D6DA4BCD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ABC5F612D5D37A79374267C3 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 4E19FBCDAFB92CA491FD1BE6 /* Build configuration list for PBXProject "Clair" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1940692DEA77B45A5C8DF644;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 574A7C1480D38DBF9839AB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC5F612D5D37A79374267C3 /* Clair */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36E0BA61FA4AB9E5EDA28A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4942CB0861506AE15B4D0F /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF6936A0EE1D408A0CBA250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240A0A458B36C1F451EC2F53 /* ClairApp.swift in Sources */,
+				AF7580D20C51A4A524DF55A8 /* CleanerModel.swift in Sources */,
+				FD108E3E7BA0392D04577D5D /* CleanupPolicy.swift in Sources */,
+				05E8E4BEA82451ADD3F4BE69 /* DashboardView.swift in Sources */,
+				C1435122BF4668CC7D4E16AA /* DiskScanner.swift in Sources */,
+				5AB1FDBA418A9FE1579148C6 /* FileCategory.swift in Sources */,
+				35A8C7A8A56995D5A1D127D1 /* Models.swift in Sources */,
+				5D65CB123906CB7B09E123BE /* OverviewViews.swift in Sources */,
+				AC9338E224AF7953299D3460 /* Sheets.swift in Sources */,
+				7F1D034A79F3F090F0B61726 /* StorageBrowser.swift in Sources */,
+				DA1B033DE0B8DD636073101C /* StorageExplorerView.swift in Sources */,
+				B6748C4D2DBB060621CC50F5 /* StorageIndex.swift in Sources */,
+				FAAFE51222479377DC078545 /* StorageInsights.swift in Sources */,
+				5B277D484283E37A4B69DD37 /* StorageReportView.swift in Sources */,
+				715F8F30BB860EB4FA2E4124 /* StorageScanner.swift in Sources */,
+				07EC7048B1409434FD24DB57 /* Theme.swift in Sources */,
+				F5EC27A270021D4842C3EFA1 /* TrashService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		506D919FE8E42FE47B5060AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.clair.mac;
+				PRODUCT_NAME = Clair;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6121C555B69A1524B7422D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.clair.mac;
+				PRODUCT_NAME = Clair;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DE0582AD9E5B1BBB4B3A2A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E9CFB82B1691C1AC0C20E9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11CC709A8AAF3C17B622AC9C /* Build configuration list for PBXNativeTarget "Clair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506D919FE8E42FE47B5060AB /* Debug */,
+				6121C555B69A1524B7422D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E19FBCDAFB92CA491FD1BE6 /* Build configuration list for PBXProject "Clair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0582AD9E5B1BBB4B3A2A75 /* Debug */,
+				E9CFB82B1691C1AC0C20E9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41B5A04A7D990F0D6DA4BCD2 /* Project object */;
+}
